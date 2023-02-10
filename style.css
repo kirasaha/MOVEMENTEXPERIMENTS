@@ -1,0 +1,150 @@
+/* div{
+	height: 15px;
+	width: 15px;
+	background-color: powderblue;
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+body{
+	height: 100vhl;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.arrow{
+	clip-path: circle(50% at 50% 50%);
+}
+
+.massage{
+	clip-path: circle(50% at 50% 50%);
+}
+
+.star{
+	clip-path: circle(50% at 50% 50%);
+} */
+img{
+	margin: 0;
+	max-width:100%;
+	height:auto;
+
+}
+html, body{
+	margin:0;
+	padding:0;
+}
+canvas{
+	display: block;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul, li{
+	list-style: none;
+	/* padding: 5px; */
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.menu_wrap .dep1{
+	font-size: 0;
+	text-align: center;
+
+
+
+}
+
+.menu_wrap .dep1 > li{
+	display: inline-block;
+	width: 40px;
+	vertical-align: right;
+	background: blue;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+.menu_wrap .dep1 > li:hover > a{
+	background: blue;
+
+}
+
+.menu_wrap .dep1 > li > a{
+	display: block;
+	padding: 10px;
+}
+
+
+
+.menu_wrap .dep2 {
+	display: none;
+	position: absolute;
+	background-color: blue;
+	padding: 15px;
+	text-align: center;
+	line-height: 20px;
+
+
+
+}
+
+.menu_wrap .dep1 > li:hover > .dep2{
+	display: block;
+}
+
+.menu_wrap .dep2 a{
+	display: block;
+
+}
+
+.menu_wrap .dep2 a:hover{
+	text-decoration: underline;
+	color : skyblue;
+}
+
+
+
+
+
+
+
+
+
+/* .menu_wrap .dep1 > li:hover > .dep2 {
+	display: block;
+
+}
+
+.menu_wrap .dep1 > li > a {
+	display: block;
+	padding: 5px 0;
+
+
+
+}
+
+.menu_wrap .dep2{
+
+	display: none;
+	position: absolute;
+	background-color: blue;
+	padding: 0px;
+
+
+}
+
+.menu_wrap .dep2 a:hover {
+	text-decoration: underline;
+	display: block;
+	color: skyblue;
+} */
